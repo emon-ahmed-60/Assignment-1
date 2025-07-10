@@ -4,3 +4,25 @@
     box-sizing: border-box;
 }
 
+body {
+    padding: 0 150px;
+}
+
+.btn-primary {
+    background-color: #4E47FF;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+ /*  Navbar Section Start  */
+
+nav {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #4E47FF;
+}
