@@ -25,6 +25,13 @@
     border-radius: 8px;
     border: none;
     outline: none;
+    transition: all 0.5s;
+}
+
+.btn-primary:hover {
+    background-color: blue;
+    scale: 1.2;
+    border-radius: 0;
 }
 
 .black {
