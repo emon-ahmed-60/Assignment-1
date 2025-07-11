@@ -19,8 +19,8 @@
     color: #252432;
 }
 
-.center {
-    margin: 0 auto;
+.content-center {
+    text-align: center;
 }
 
 /* Utility Class END  */
@@ -50,7 +50,6 @@ nav h1 {
 /* Banner Section Start  */
 
 .banner {
-    text-align: center;
     margin: 100px 120px;
 }
 
@@ -100,7 +99,6 @@ main {
     background-color: #e5e7ff;
     border-radius: 24px;
     padding: 50px 142px;
-    text-align: center;
 }
 
 .users-title {
@@ -126,3 +124,55 @@ main {
     color: #8d8e98;
 }
 /* Productive Users Section END  */
+
+/* Users Feedback Section Start  */
+
+.feedback-section {
+    margin: 137px 0;
+}
+
+.feedback-title {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.feedback-section-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.user-feedback {
+    background-color: white;
+    border-radius: 14px;
+    padding: 24px;
+    margin-bottom: 10px;
+}
+
+.user-feedback-content {
+    margin: 24px 0;
+}
+
+.user-feedback-content h2 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.user-identify {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user-identify img {
+    border-radius: 50%;
+}
+/* Users Feedback Section END  */
+
+/* Let’s Get In Touch Section Start */
+
+
+/* Let’s Get In Touch Section  END*/
