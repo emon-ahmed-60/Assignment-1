@@ -23,6 +23,10 @@
     text-align: center;
 }
 
+.primary-color {
+    color: #4E47FF;
+}
+
 /* Utility Class END  */
 
  /*  Navbar Section Start  */
@@ -37,7 +41,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #4E47FF;
 }
 
 nav h1 {
@@ -114,7 +117,6 @@ main {
 }
 
 .users-activity h3 {
-    color:  #4E47FF;
     font-weight: bold;
     font-size: 80px;
 }
@@ -204,3 +206,39 @@ main {
 }
 
 /* Let’s Get In Touch Section  END*/
+
+/* footer Start  */
+
+footer {
+    padding: 100px;
+}
+
+.footer-content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.footer-content h1 {
+    font-size: 100px;
+}
+
+footer p {
+    color: #8987A1;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-list li {
+    list-style-type: none;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: #8987A1;
+}
+/* footer END  */
